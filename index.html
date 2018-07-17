@@ -1,78 +1,40 @@
 <!DOCTYPE html>
-<!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
 <html lang="en">
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-55RLJBR');
-
-    </script>
-    <!-- End Google Tag Manager -->
-
+    <meta name="keywords" content="Andrew Tatham, Contract Software Developer, Leeds, Microsoft C#.NET, SQL Server, Kaizen Software Engineerimg, tDD, BDD">
+    <meta name="author" content="Andrew Tatham">
+    <meta name="description" content="KAIZEN Software Engineering is a software development consultancy based in Leeds, specialising in Microsoft C#.NET, test-driven, behaviour-driven">
 
     <title>KAIZEN Software Engineering</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61053235-1"></script>
     <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-        ga('create', 'UA-61053235-1', 'auto');
-        ga('send', 'pageview');
-
+        gtag('config', 'UA-61053235-1');
     </script>
 
 </head>
 
-<body data-feedly-mini="yes">
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55RLJBR" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-        <div class="container">
+<body>
+    <div class="container">
+        <div class="jumbotron">
             <h1>改善</h1>
             <h2>KAIZEN Software Engineering</h2>
         </div>
     </div>
     <div class="container">
-        <!-- Example row of columns -->
         <div class="row">
             <div class="col-md-4">
                 <h3>KAIZEN</h3>
@@ -89,7 +51,7 @@
             </div>
         </div>
         <hr>
-        <!-- Example row of columns -->
+
         <div class="row">
 
             <div class="col-md-6">
@@ -112,7 +74,9 @@
                         <a href="http://www.agilemanifesto.org/principles.html">Principles</a>
                     </li>
                     <li>
-                        Extreme Programming <a href="http://www.extremeprogramming.org/">XP</a> - respecting the <a href="http://www.extremeprogramming.org/values.html">values</a> of Simplicity, Communication, Feedback, Respect and Courage
+                        Extreme Programming
+                        <a href="http://www.extremeprogramming.org/">XP</a> - respecting the
+                        <a href="http://www.extremeprogramming.org/values.html">values</a> of Simplicity, Communication, Feedback, Respect and Courage
                     </li>
                     <li>LEAN - identifying and removing waste</li>
                     <!--<li><a href="http://programming-motherfucker.com/">Programming Motherfucker</a></li>-->
@@ -126,33 +90,69 @@
 
         <div class="row">
             <div class="col-sm-2">
-                <img class="img-fluid" alt="Selenium" src="images/tools/visualstudio.png">
+                <div class="card">
+                    <img class="card-img-top" alt="Visual Studio" src="images/tools/visualstudio.png">
+                    <p class="card-text">Experienced with all versions from 6 up to the current.</p>
+                </div>
             </div>
             <div class="col-sm-2">
-                <img class="img-fluid" alt="Specflow" src="images/tools/specflow.png">
+                <div class="card">
+                    <img class="card-img-top" alt="Specflow" src="images/tools/specflow.png">
+                    <p class="card-text">Behaviour-driven-development (BDD) is a way of binding the business requirements to the code. Improving
+                        quality ensuring correctness.</p>
+                    <a class="btn btn-default" href="https://specflow.org/" target="_default">Specflow</a>
+                </div>
             </div>
             <div class="col-sm-2">
-                <img class="img-fluid" alt="SQL Server" src="images/tools/sql.png">
+                <div class="card">
+                    <img class="card-img-top" alt="SQL Server" src="images/tools/sql.png">
+                    <p class="card-text">Experienced with SQL Server, including performance tuning and query optimization.</p>
+                </div>
             </div>
             <div class="col-sm-2">
-                <img class="img-fluid" alt="NUnit" src="images/tools/nunit.png">
+                <div class="card">
+                    <img class="card-img-top" alt="NUnit" src="images/tools/nunit.png">
+                    <p class="card-text">Test-driven-development (TDD) is used to improve the design, reducing coupling.</p>
+                </div>
             </div>
             <div class="col-sm-2">
-                <img class="img-fluid" alt="Azure" src="images/tools/azure.png">
+                <div class="card">
+                    <img class="card-img-top" alt="Azure" src="images/tools/azure.png">
+                    <p class="card-text">Microsoft Azure</p>
+                </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-sm-2">
-                <img class="img-fluid" alt="C#" src="images/tools/csharp.svg">
+                <div class="card">
+                    <img class="card-img-top" alt="C#" src="images/tools/csharp.svg">
+                    <p class="card-text">C#</p>
+                </div>
             </div>
             <div class="col-sm-2">
-                <img class="img-fluid" alt=".NET" src="images/tools/net.svg">
+                <div class="card">
+                    <img class="card-img-top" alt=".NET" src="images/tools/net.svg">
+                    <p class="card-text">Microsoft .NET Framework</p>
+                </div>
             </div>
             <div class="col-sm-2">
-                <img class="img-fluid" alt="Selenium" src="images/tools/selenium.png">
+                <div class="card">
+                    <img class="card-img-top" alt="Selenium" src="images/tools/selenium.png">
+                    <p class="card-text">Selenium is used to automate the testing of the web front-end. The page pattern ensures efficiency.</p>
+                </div>
             </div>
             <div class="col-sm-2">
-                <img class="img-fluid" alt="Selenium" src="images/tools/resharper.png">
+                <div class="card">
+                    <img class="card-img-top" alt="Resharper" src="images/tools/resharper.png">
+                    <p class="card-text">Jetbrains Resharper Ultimate is used to improve productivity.
+                        <br> refactoring
+                        <br> formatting code
+                        <br> analysing code
+                        <br> automated unit test runner
+                        <br> performance optimisation
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -182,7 +182,6 @@
                 <img class="img-fluid" alt="Virtual College" src="images/clients/virtualcollege.png">
             </div>
 
-
             <div class="col-sm-2">
                 <img class="img-fluid" alt="Real" src="images/clients/real.png">
             </div>
@@ -205,16 +204,16 @@
                 <img class="img-fluid" alt="BJSS" src="images/experience/bjss.png">
             </div>
             <div class="col-sm-2">
-                <img class="img-fluid" alt="BJSS" src="images/experience/lloyds.jpg">
+                <img class="img-fluid" alt="Lloyds Banking Group" src="images/experience/lloyds.jpg">
             </div>
             <div class="col-sm-2">
-                <img class="img-fluid" alt="BJSS" src="images/experience/sdl.jpg">
+                <img class="img-fluid" alt="SDL" src="images/experience/sdl.jpg">
             </div>
             <div class="col-sm-2">
-                <img class="img-fluid" alt="BJSS" src="images/experience/hbos.jpg">
+                <img class="img-fluid" alt="HBOS" src="images/experience/hbos.jpg">
             </div>
             <div class="col-sm-2">
-                <img class="img-fluid" alt="BJSS" src="images/experience/sbs.png">
+                <img class="img-fluid" alt="Skipton Building Society" src="images/experience/sbs.png">
             </div>
         </div>
 
@@ -222,23 +221,29 @@
 
 
         <footer>
-            <div class="footer">
-                <div class="col-md-9">
+            <div class="footer clearfix">
+                <div class="float-right">
                     <p>
-                        KAIZEN Software Engineering Limited <a href="http://kaizensoftwareengineering.com/">kaizensoftwareengineering.com</a> Company No: 09503807
+                        Andrew Tatham
+                        <br>
+                        <a href="http://andrewtatham.com/">andrewtatham.com</a>
+                        <br>
+                        <a href="http://isandrewtathamavailable.com/">isandrewtathamavailable.com</a>
                     </p>
                 </div>
-                <div class="col-md-3">
-                    <p>
-                        Andrew Tatham <a href="http://andrewtatham.com/">andrewtatham.com</a>
-                    </p>
-                </div>
+                <p>
+                    KAIZEN Software Engineering Limited
+                    <br>Company No: 09503807
+                </p>
             </div>
         </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
