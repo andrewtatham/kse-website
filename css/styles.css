@@ -1,3 +1,7 @@
 .jumbotron {
     /* background-image: url("https://picsum.photos/1000/400/?random"); */
 }
+
+.gap{
+    height: 1em;
+}
