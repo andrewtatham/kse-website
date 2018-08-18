@@ -2,6 +2,21 @@
     /* background-image: url("https://picsum.photos/1000/400/?random"); */
 }
 
-.gap{
-    height: 1em;
+.gap {
+    height: 2em;
+}
+.tdd{
+
+}
+.test{
+    display: inline-block;
+
+    height: 25px;
+    width: 25px;
+}
+.pass {
+    color:green;
+}
+.fail {
+    color:red;
 }
