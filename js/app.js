@@ -16,7 +16,7 @@ function shuffle(a) {
 var tests = [];
 var testTimer = null;
 
-function fixTest() {
+function fixTest(test) {
     var test = tests.pop();
     if (test) {
         test = $(test);
@@ -25,34 +25,31 @@ function fixTest() {
         var icon = test.find("i");
         icon.removeClass("fa-times");
         icon.addClass("fa-check");
-        console.log(test);  
-    } else {
-        clearInterval(testTimer);
     }
 }
 
 function addFailingTest() {
     var test = $('<div class="test fail"><i class="fas fa-times"></i></div>')
-    console.log(test);  
-    tests.push(test);
-    $(".tdd").append(test);
-}
- 
+    tests.unshift(test);
+    $(".tdd-inner").append(test);
+    return test;
 
-
-for (var i = 0; i < 100; i++) {
-    addFailingTest();
 }
 
+function between(min, max) {
+    return min + Math.floor(Math.random() * max)
+}
 
 var waitTimer = setTimeout(function () {
+
     testTimer = setInterval(function () {
-        addFailingTest();
-        shuffle(tests);        
-        for (var i = 0; i < 2; i++) {
-            fixTest();        
+
+        for (var i = 0; i < between(1, 2); i++) {
+            test = addFailingTest();
+            setTimeout(function () {
+                fixTest(test);
+            }, between(500, 1000));
         }
 
-
-    }, 100);
+    }, between(800, 1200));
 }, 1000);
