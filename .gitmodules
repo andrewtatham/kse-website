@@ -1,0 +1,3 @@
+[submodule "kaizen-software-engineering/themes/ananke"]
+	path = kaizen-software-engineering/themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git

@@ -1,0 +1,4 @@
+baseURL = "http://kaizensoftwareengineering.com/"
+languageCode = "en-gb"
+title = "Kaizen Software Engineering"
+theme = "ananke"
