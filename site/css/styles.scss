@@ -1,0 +1,72 @@
+body {
+    line-height: 1.6em;
+    font-weight: 100;
+    color: #333;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+.jumbotron {
+    background: #fafafa;
+    margin: 0 auto;
+    padding: 3em 1em 1em 1em;
+    max-width: 32em;
+}
+
+.kaizen-japanese {
+    font-size: 5rem;
+}
+
+.gap {
+    height: 2em;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fade-in 1s;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 5px #fafafa;
+}
+
+.blockquote {
+    font-style: oblique;
+    margin-left: 1em;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+.blockquote::before {
+    content: open-quote;
+}
+
+.blockquote::after {
+    content: close-quote;
+}
+
+.skills-list {}
+
+.footer {
+    background: #fafafa;
+    padding: 1rem 1rem;
+    border-radius: 0.3rem;
+}
